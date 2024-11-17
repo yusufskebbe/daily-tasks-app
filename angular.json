@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pray-app": {
+    "daily-tasks-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/pray-app",
+            "outputPath": "dist/daily-tasks-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "pray-app:build:production"
+              "buildTarget": "daily-tasks-app:build:production"
             },
             "development": {
-              "buildTarget": "pray-app:build:development"
+              "buildTarget": "daily-tasks-app:build:development"
             }
           },
           "defaultConfiguration": "development"
