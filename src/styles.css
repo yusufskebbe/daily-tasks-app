@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: poppins, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+table {
+  position: relative !important;
+  border-radius: 20px;
+}
+
+table thead tr {
+  background: #2e4053 !important;
+  color: #ffffff !important;
+  text-transform: capitalize;
+  position: sticky !important;
+}
+
+td,
+th {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ecf0f1 !important;
+  color: #2c3e50 !important;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff !important;
+  color: #2c3e50 !important;
+}
+
+.mat-mdc-table .mdc-data-table__row:hover {
+  background-color: rgba(236, 236, 236, 0.514) !important;
+}
